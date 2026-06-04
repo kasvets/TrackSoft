@@ -162,11 +162,10 @@ export default function LoginPage() {
 
           {/* Demo credentials */}
           <div className="mt-6 p-4 bg-gray-50 rounded-md">
-            <h3 className="text-sm font-medium text-gray-900 mb-2">Demo Hesapları:</h3>
+            <h3 className="text-sm font-medium text-gray-900 mb-2">Demo Hesap:</h3>
             <div className="space-y-1 text-xs text-gray-600">
-              <p><strong>Admin:</strong> admin / admin123</p>
-              <p><strong>Manager:</strong> manager / manager123</p>
-              <p><strong>Operator:</strong> operator / operator123</p>
+              <p><strong>Kullanıcı Adı:</strong> demo</p>
+              <p><strong>Şifre:</strong> demo123</p>
             </div>
           </div>
         </div>

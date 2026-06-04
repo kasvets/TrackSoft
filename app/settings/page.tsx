@@ -48,7 +48,7 @@ function SettingsPage() {
               </div>
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1">E-posta Adresi</label>
-                <input type="email" className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-500 focus:border-transparent" defaultValue="admin@greenlog.com" />
+                <input type="email" className="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-500 focus:border-transparent" defaultValue="admin@beylogistics.com" />
               </div>
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1">Şirket Adı</label>

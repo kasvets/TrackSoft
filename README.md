@@ -1,4 +1,4 @@
-# GreenLog - Lojistik Yönetim Sistemi
+# Bey Logistics - Lojistik Yönetim Sistemi
 
 Modern ve kullanıcı dostu lojistik firması admin paneli. Node.js/Express backend ve Next.js/React/TypeScript frontend ile geliştirilmiştir.
 
@@ -188,4 +188,4 @@ Sorularınız için issue açabilir veya doğrudan iletişime geçebilirsiniz.
 
 ---
 
-**GreenLog** - Modern Lojistik Yönetimi 🚛📦
+**Bey Logistics** - Modern Lojistik Yönetimi 🚛📦

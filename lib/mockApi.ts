@@ -10,7 +10,7 @@ const mockUser: User = {
   id: '1',
   firstName: 'Mert',
   lastName: 'K.',
-  email: 'admin@greenlog.com',
+  email: 'admin@beylogistics.com',
   phone: '+90 532 123 4567',
   role: 'admin',
   companyName: 'Bey Logistics',

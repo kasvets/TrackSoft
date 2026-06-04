@@ -1,6 +1,6 @@
-# GreenLog Kurulum Rehberi
+# Bey Logistics Kurulum Rehberi
 
-Bu rehber, GreenLog Lojistik Yönetim Sistemi'ni yerel ortamınızda çalıştırmanız için gereken adımları içermektedir.
+Bu rehber, Bey Logistics Yönetim Sistemi'ni yerel ortamınızda çalıştırmanız için gereken adımları içermektedir.
 
 ## Gereksinimler
 
@@ -13,7 +13,7 @@ Bu rehber, GreenLog Lojistik Yönetim Sistemi'ni yerel ortamınızda çalıştı
 ### 1. Projeyi İndirin
 ```bash
 git clone <repository-url>
-cd greenlog_bb
+cd bey_logistics_bb
 ```
 
 ### 2. Backend Kurulumu
@@ -40,7 +40,7 @@ docker run -d -p 27017:27017 --name mongodb mongo:latest
 ```javascript
 module.exports = {
   PORT: 5000,
-  MONGODB_URI: 'mongodb://localhost:27017/greenlog_db',
+  MONGODB_URI: 'mongodb://localhost:27017/beylogistics_db',
   JWT_SECRET: 'your_super_secret_jwt_key_here',
   NODE_ENV: 'development'
 };
@@ -88,7 +88,7 @@ curl -X POST http://localhost:5000/api/auth/register \
   -H "Content-Type: application/json" \
   -d '{
     "username": "admin",
-    "email": "admin@greenlog.com",
+    "email": "admin@beylogistics.com",
     "password": "admin123",
     "firstName": "Admin",
     "lastName": "User",
@@ -102,7 +102,7 @@ curl -X POST http://localhost:5000/api/auth/register \
   -H "Content-Type: application/json" \
   -d '{
     "username": "manager",
-    "email": "manager@greenlog.com",
+    "email": "manager@beylogistics.com",
     "password": "manager123",
     "firstName": "Manager",
     "lastName": "User",
@@ -116,7 +116,7 @@ curl -X POST http://localhost:5000/api/auth/register \
   -H "Content-Type: application/json" \
   -d '{
     "username": "operator",
-    "email": "operator@greenlog.com",
+    "email": "operator@beylogistics.com",
     "password": "operator123",
     "firstName": "Operator",
     "lastName": "User",
@@ -163,7 +163,7 @@ npm run lint
 ## 📁 Proje Yapısı
 
 ```
-greenlog_bb/
+bey_logistics_bb/
 ├── config.js              # Backend konfigürasyonu
 ├── server.js              # Ana sunucu dosyası
 ├── package.json           # Backend bağımlılıkları
@@ -267,4 +267,4 @@ Herhangi bir sorun yaşarsanız:
 
 ---
 
-**GreenLog Lojistik Yönetim Sistemi** - Modern ve güvenilir lojistik çözümü 🚛📦
+**Bey Logistics Yönetim Sistemi** - Modern ve güvenilir lojistik çözümü 🚛📦

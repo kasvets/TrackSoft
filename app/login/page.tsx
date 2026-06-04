@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react'
 import { useAuth } from '@/hooks/useAuth'
 import { useRouter } from 'next/navigation'
-import { Package, Eye, EyeOff, Loader2 } from 'lucide-react'
+import { Eye, EyeOff, Loader2 } from 'lucide-react'
 import { useForm } from 'react-hook-form'
 import { LoginForm } from '@/types'
 import toast from 'react-hot-toast'
@@ -43,9 +43,8 @@ export default function LoginPage() {
       <div className="max-w-md w-full space-y-8">
         <div>
           <div className="flex justify-center">
-            <div className="flex items-center space-x-2">
-              <Package className="h-12 w-12 text-primary-600" />
-              <span className="text-3xl font-bold text-gray-900">GreenLog</span>
+            <div className="flex items-center justify-center">
+              <img src="/logo.png" alt="Logo" className="h-24 w-auto" />
             </div>
           </div>
           <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
@@ -174,7 +173,7 @@ export default function LoginPage() {
 
         <div className="text-center">
           <p className="text-sm text-gray-600">
-            GreenLog Lojistik Yönetim Sistemi v1.0.0
+            Bey Logistics Yönetim Sistemi v1.0.0
           </p>
         </div>
       </div>

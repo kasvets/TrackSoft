@@ -8,12 +8,12 @@ const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms))
 // Mock user data
 const mockUser: User = {
   id: '1',
-  firstName: 'Sarp',
+  firstName: 'Mert',
   lastName: 'K.',
   email: 'admin@greenlog.com',
   phone: '+90 532 123 4567',
   role: 'admin',
-  companyName: 'GreenLog Lojistik',
+  companyName: 'Bey Logistics',
   isActive: true,
   createdAt: '2024-01-01T00:00:00Z',
   updatedAt: '2024-01-01T00:00:00Z'

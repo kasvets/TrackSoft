@@ -46,7 +46,7 @@ export default function AppLayout({ children }: AppLayoutProps) {
           <div className="px-4 sm:px-6 lg:px-8">
             <div className="flex items-center justify-between">
               <p className="text-sm text-gray-500">
-                © 2024 GreenLog. Tüm hakları saklıdır.
+                © 2024 Bey Logistics. Tüm hakları saklıdır.
               </p>
               <p className="text-sm text-gray-500">
                 Versiyon 1.0.0

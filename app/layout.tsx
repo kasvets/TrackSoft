@@ -6,12 +6,16 @@ import { Toaster } from 'react-hot-toast'
 
 const inter = Inter({ subsets: ['latin'] })
 
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+}
+
 export const metadata: Metadata = {
-  title: 'GreenLog - Lojistik Yönetim Sistemi',
-  description: 'Modern ve kullanıcı dostu lojistik firması admin paneli',
-  keywords: ['lojistik', 'yönetim', 'admin panel', 'konteyner takip'],
-  authors: [{ name: 'GreenLog Team' }],
-  viewport: 'width=device-width, initial-scale=1',
+  title: 'Bey Logistics - Lojistik Yönetim Sistemi',
+  description: 'Bey Logistics modern ve kullanıcı dostu admin paneli',
+  keywords: ['lojistik', 'yönetim', 'admin panel', 'konteyner takip', 'bey logistics'],
+  authors: [{ name: 'Bey Logistics Team' }],
 }
 
 export default function RootLayout({

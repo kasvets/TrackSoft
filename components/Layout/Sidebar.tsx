@@ -126,10 +126,9 @@ export default function Sidebar() {
   const SidebarContent = () => (
     <div className="flex flex-col h-full">
       {/* Logo */}
-      <div className="flex items-center justify-center h-16 px-4 bg-primary-600">
-        <Link href="/dashboard" className="flex items-center space-x-2">
-          <Package className="h-8 w-8 text-white" />
-          <span className="text-xl font-bold text-white">GreenLog</span>
+      <div className="flex items-center justify-center h-16 px-4 bg-white border-b border-gray-200">
+        <Link href="/dashboard" className="flex items-center justify-center">
+          <img src="/logo.png" alt="Logo" className="h-10 w-auto" />
         </Link>
       </div>
 
